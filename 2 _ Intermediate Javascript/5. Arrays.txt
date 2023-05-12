@@ -1,0 +1,11 @@
+var eggs =[1,2,3,4,5]
+
+> eggs
+> eggs[1]
+> eggs.length;
+> eggs.includes(1);
+
+
+var guestList = ["Angela","Jack","Pam","James","Janson"];
+console.log(guestList);
+gueatList.length;

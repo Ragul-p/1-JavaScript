@@ -1,0 +1,6 @@
+if(loveScore === 100){
+alert("Good");
+}
+else{
+alert("ok");
+}

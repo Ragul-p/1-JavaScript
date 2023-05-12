@@ -1,0 +1,35 @@
+while(true){
+// Do something
+}
+
+
+Program:-
+
+var i = 1;
+
+while(i<=2){
+console.log(i);
+    i++;
+}
+
+Program:-
+
+var count = 1;
+var numArray=[];
+
+while (count <= 100){
+    if(count % 3 === 0 && count %5 ===0 ){
+       numArray.push ("fizzbuzz");
+    }
+    else if(count % 3 === 0){
+       numArray.push ("fizz");
+    }else if(count % 5 === 0){
+       numArray.push ("buzz");
+    }else{
+      numArray.push (count);
+    }
+count++;
+
+
+}
+console.log(numArray);

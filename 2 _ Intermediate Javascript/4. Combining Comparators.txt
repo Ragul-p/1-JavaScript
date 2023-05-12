@@ -1,0 +1,36 @@
+&&    AND   --> Both 1 & 2 All True
+||    OR    --> Any One True  1 or 2
+!     NOT
+
+
+
+if(lovescore > 70){}
+if(lovescore > 30 && lovescore <= 70 ){}
+if(lovescore <=30 ){}
+
+
+
+
+
+Program :- (Leap Year):-
+
+
+var year = prompt("Enter Your Year : ");
+
+if(year%4 === 0){
+
+if(year%100 === 0){
+
+if(year%400 === 0){
+console.log("  leap year");
+}else{
+console.log(" Not leap year");
+}
+
+}else{
+console.log(" Not leap year");
+}
+
+}else(){
+console.log(" Not leap year");
+}

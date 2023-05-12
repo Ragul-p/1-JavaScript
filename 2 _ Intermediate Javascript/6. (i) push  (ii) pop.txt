@@ -1,0 +1,44 @@
+var eggs = [1,2,3,4,5]
+
+> eggs.push(10);
+> eggs.pop();
+
+
+
+Program :-
+
+var count = 1;
+var numArray=[];
+
+function fizzBuzz(){
+    if(count % 3 === 0 && count %5 ===0 ){
+       numArray.push ("fizzbuzz");
+    }
+    else if(count % 3 === 0){
+       numArray.push ("fizz");
+    }else if(count % 5 === 0){
+       numArray.push ("buzz");
+    }else{
+      numArray.push (count);
+    }
+count++;
+return numArray;
+
+}
+
+
+
+
+
+
+Program 2 :-
+
+var guestList = ["Angela","Jack","Pam","James","Janson"];
+whoPaying(guestList);
+
+function whoPaying(names){
+var randomNo = Math.floor((Math.random()*names.length)+1);
+    console.log(randomNo);
+var randomPerson = names[randomNo];
+    return randomPerson+" is going to buy Lunch Today!";
+}
