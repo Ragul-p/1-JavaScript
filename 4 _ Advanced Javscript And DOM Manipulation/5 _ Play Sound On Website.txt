@@ -1,0 +1,23 @@
+Google Search :-
+     i.Play Sound Javascript
+      
+      var audio = new Audio('audio_file.mp3');
+      audio.play();
+
+     ii.new Audio() javascript mdn
+     iii.background images css
+
+
+
+This:-
+ console.log(this);// return button Object
+
+
+for(var i=0;i<numberOfDrumButtons;i++){
+
+    document.querySelectorAll(".drum")[i].addEventListener("click",function(){
+        console.log(this);// return button Object
+        console.log(this.style.color="white");
+    });
+
+}

@@ -1,0 +1,32 @@
+
+var bellBoy = {
+    name:"jimmy",
+    age:"19",
+    hasWorkpermit:true,
+    languages:["French,English"],
+    moveSuitecase:function(){
+      console.log("move it ... !1");
+      console.log(bellBoy.name);
+    }
+}
+
+
+console.log(bellBoy);
+bellBoy.moveSuitecase();
+
+
+//
+
+function HosueKeeper(yearsOFExperience,name,cleaningRepertoire){
+this.yearsOFExperience=yearsOFExperience;
+this.name= name;
+this.cleaningRepertoire=cleaningRepertoire;
+this.clean = function(){
+  alert("Cleaning is progress...");
+}
+}
+
+var houseKeeper = new HosueKeeper(12,"James",["bedroom","Hall"]);
+console.log(houseKeeper);
+
+houseKeeper.clean();

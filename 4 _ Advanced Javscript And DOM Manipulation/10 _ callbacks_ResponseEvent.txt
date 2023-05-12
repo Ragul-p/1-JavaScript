@@ -1,0 +1,54 @@
+1.
+
+          //Higher Order Function     //Call Back Function
+ document.addEventListener("keypress",function(event){
+    console.log(event);
+ });
+
+
+ 
+
+ document.addEventListener("click",function(e){
+    console.log(e);
+ });
+
+
+
+
+
+
+
+ 2. Own Function :-
+
+ function anotherAddEventListener(typeOfEvent,callBack){
+
+    var eventThatHappend ={
+    eventType : "keypress",
+    key : "p",
+    durationOfKeyPress:2
+    }
+
+    if(eventThatHappend.eventType === typeOfEvent){
+        callBack(eventThatHappend);
+    }
+
+ }
+
+
+
+ anotherAddEventListener("keypress",function(event){
+  console.log(event);
+ });
+
+
+
+
+
+
+3.
+  > debugger ;
+ anotherAddEventListener("keypress",function(event){
+    console.log(event);
+   });
+
+ 

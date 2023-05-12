@@ -1,0 +1,19 @@
+Google Search :-
+      Javascript Wikipedia  -->inspect Javascript --> Console $0;
+      $0.innerHTML="Ragul"; 
+
+1. Normal Function:-
+     i.Normal Function Has Name
+
+$0.addEventListener("click",handleClick);
+
+function handleClick(){
+alert("I got Clicked");
+}
+
+2.Anonymous Function:-
+    i. Annonumous Function Has No Name
+
+$0.addEventListener("click",function(){
+    console.log("I Got Clicked !");
+});

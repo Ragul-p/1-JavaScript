@@ -1,0 +1,6 @@
+// Keypress
+document.addEventListener("keypress",function(event){
+  var keyPressedEvent = event.key;
+   makeSound(keyPressedEvent);
+   buttonAnimation(event.key);
+});

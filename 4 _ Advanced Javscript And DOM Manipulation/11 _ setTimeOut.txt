@@ -1,0 +1,13 @@
+Google:-
+  1. Timeout Function Javascript
+
+function  buttonAnimation(currrentKey){
+
+var activeButton = document.querySelector("."+currrentKey);
+    activeButton.classList.add("pressed");
+
+    setTimeout(function(){
+        activeButton.classList.remove("pressed");
+    },100);
+
+}
