@@ -1,0 +1,31 @@
+Creating The Function:-
+
+
+
+function getMilk(money){
+return money % 1;
+}
+
+
+calling The Function:-
+
+var change = getMilk(5);
+
+
+
+
+Program:-
+
+function bmiCalculator(weight,height){
+
+var bmi = weight/(height*height);
+return bmi;
+
+}
+
+
+Google Search:-
+
+1.Raise a number to a power javascript
+2.round number to nearest whoe number
+

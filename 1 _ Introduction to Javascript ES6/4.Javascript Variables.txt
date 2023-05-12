@@ -1,0 +1,38 @@
+prompt("What is Your Name");  // 'ragul'
+
+
+var myName = "ragul";   //'ragul'
+
+//reassign variable
+    myName = "raj";  // 'raj'
+
+
+var myName='ragul';
+var yourName = prompt("what is your name ? ");
+alert("Myname is "+myName+" & yourname "+yourName);
+
+
+
+
+var gamelevel=1;
+    gamelevel=2;
+    gamelevel=3;
+
+alert("your level is Currently" +gamelevel);
+
+
+ 
+function test() {
+var a = 10;
+var b =20;
+
+var t = a;
+    a = b;
+    b = t;
+
+console.log(a);
+console.log(b);
+
+}
+
+

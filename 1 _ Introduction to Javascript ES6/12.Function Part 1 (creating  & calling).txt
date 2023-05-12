@@ -1,0 +1,16 @@
+Creating The Function:-
+
+
+
+function getMilk(){
+alert("Bye Milk");
+}
+
+
+calling The Function:-
+
+getMilk();
+
+
+
+http://stanford.edu/~cpiech/karel/ide.html

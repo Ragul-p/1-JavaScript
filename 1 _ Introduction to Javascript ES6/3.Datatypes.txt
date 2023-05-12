@@ -1,0 +1,15 @@
+1.String  --> "Hello"
+2.Numbers --> 123
+3.Boolean --> true (or) false
+
+
+console:-
+
+> 2+3
+> alert(2+3);
+> typeof(23);      // 'number'
+> typeof("ragul") // 'string'
+> typeof(true)   // 'boolean'
+
+
+

@@ -1,0 +1,10 @@
+var name ="ragul";
+name.slice(0,1);  //r
+name.slice(4,5);  //l
+
+
+
+var tweetUnder140 = tweet.slice(0,140);
+alert(tweetUnder140);
+
+alert(prompt("Compose Your Tweet ").slice(0,140));

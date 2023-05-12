@@ -1,0 +1,6 @@
+ctrl + l --> clear chrome console
+
+camelCasing  --> myName
+
+Chrome:-
+     load @ --> rightClick --> Empty catch and Hard Reload

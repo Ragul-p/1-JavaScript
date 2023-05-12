@@ -1,0 +1,28 @@
+var a = 2+3;  //5 Additoion
+var b = 10-2  //8 Subtraction
+var c = 3*3   //9 Multiplication
+var d = 6/2   //9 Division
+var e = 9%6   //3 Modulo
+
+
+var cost = 3+5*2;
+    cost = 3+10;
+    cost = 13;
+
+var cost = (3+2)*2;
+    cost = 5*2;
+    cost = 10;
+
+var cost = 3+(2*2);
+    cost = 3+4;
+    cost = 7;
+
+
+Example DogAge To Human Age Formula :-
+
+humanAge = (dogAge-2)*4+21;
+
+
+var dogAge =  prompt("Enter Your Dog Age ");
+var humanAge = ((dogAge-2)*4)+21;
+alert("Your Age " +humanAge); 

@@ -1,0 +1,9 @@
+alert("Hello"+"World");        //HelloWorld
+
+alert("Hello"+" "+"World");     //Hello World
+
+var message = "Hello There "
+var name = prompt ("Enter Your Name ");
+
+alert(message +" "+name);
+

@@ -1,0 +1,17 @@
+var name ="ragul";
+
+name = name.toUpperCase();  //RAGUL
+name = name.toLowerCase();  //ragul
+
+
+
+Program:-
+ 
+
+var name = prompt("What is Your Name : ");
+var firstLetter = name.slice(0,1);
+var firstLetterUpper = firstLetter.toUpperCase();
+var secondLetterLower = name.slice(1,name.length);
+    secondLetterLower = secondLetterLower.toLowerCase();
+
+var final =  firstLetterUpper + secondLetterLower;

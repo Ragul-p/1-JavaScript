@@ -1,0 +1,91 @@
+Javascript:-
+       The Language That Powers The Web
+
+Andreessen Horowitz(CompanyName):-
+      Company Invested All StartUp
+
+Marc Andreeseen(Author Name):-
+     One of The Principle Maker in Netscape Navigator
+
+
+
+Browser
+1.Mosaic(In University):-
+2.NetscapeNavigator(Finished University):-
+80% marketShare Browser Usage
+
+NetscapeNavigator vs InternetExplorer
+3.FireFox
+
+
+-->Remove Server  -> Run Code on Browser Only
+-->Create a Scripted Language and it is Simple And Easy
+
+
+
+Brendan Eich :-
+       --> Created Javascript
+       --> How to Make a Language in 10 days
+
+
+What the World Look Like Without Javascript:-
+        Inside Chrome--> Settings --> Search Javascript --> 
+               Site Settings --> Javascript -->Don't allow sites to use javascript
+
+        Eg: Open Website :   1.mobile.twitter.com  
+                             2.netflix
+                             3.youtube
+                             
+
+
+
+1.Brendan Eich  --> First Created    --> Livescript
+2.Microsoft     --> Reverse Engineer --> JScript
+3.European      -->                  -->ECMAScript
+
+European Computer Manufactures Association Script   
+ES5
+ES6
+
+
+
+Example:-
+       unhide h1
+       1s delay 
+       unhide p
+       h1 change text to "Hello"
+       p change text to "world"
+
+
+
+
+Java vs Javascript
+
+Javascript(Intrepreted):-
+      --> Interpreted Language also be toy language
+      -->powerful,slow
+      -->Execute all the Instruction Line by Line
+
+Java(Compiled Language):-
+      -->Compiled Language are most serious language
+      -->Fast Running Program
+
+
+
+
+
+Modern Js -> Lot of Framework available
+
+Javascript:-
+     --> One Language That Support all browser 
+     --> Other Language can compiled Javascript and run on browser
+      
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+var name = "ragul";
+    name.length;      //5
+
+twitter-character-counter.com
+
+
+comment in Javascript ----->  /*      */
+
+
+var characterValue = prompt("Enter Your Character");
+var remainingCharacter =124 - characterValue.length;
+alert(characterValue.length+" " +remainingCharacter);
+
+
+
+blog.londonappbrewery.com
+
+var tweet = prompt("Enter Your Tweet "); 
+alert("You Have Written " + tweet.length + " character, You have "+(140-tweet.length)+" character remaining.");
+
+
+
+
+

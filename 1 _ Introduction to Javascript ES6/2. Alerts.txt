@@ -1,0 +1,34 @@
+Chrome Browser Console:-
+
+> alert("Hello");
+> clear();         // clear Chrome Console
+
+
+
+Shift + Enter --> to go next Line in Chrome Browser
+> alert("Hello");
+  alert("world");
+
+
+Chrome Browser:-
+Sources --> Click --> Snippets --> + New Snippets  --> index.html  --> Run
+
+
+Mdn Documentation :-
+  Window.alert("Hello");
+  (or)
+  alert("Hello");
+
+Note: If any code copy & paste check "" Mark
+
+Github: github.com/rwaldron/idiomatic.js
+
+wikipedia (search) --> The Element of Style
+
+
+
+
+
+
+
+

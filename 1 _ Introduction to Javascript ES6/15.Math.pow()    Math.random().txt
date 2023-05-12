@@ -1,0 +1,5 @@
+1.
+Math.pow(height,2);
+
+2.
+Math.round(bmi);
