@@ -1,1 +1,21 @@
+1.Inline Javascript:-
 
+    <body  onload="alert('Hello World !')">
+
+2. Internal Javascript:-
+
+Inside Body
+
+<body>
+    <Script type = "text/javascript">
+    alert("Hello World !");
+    </Script>
+</body>
+
+
+3.External File :-
+
+--> Browser Read Top to Bottom
+--> Only Before  </body> end tag
+
+<Script src="index.js"> </Script>
