@@ -1,1 +1,19 @@
+0.3647382746318429
+    16 Decimal Places
 
+0 - 0.99999 // Not reach 1 
+
+
+var n = Math.random();
+    n = n * 6;
+    n = Math.floor(n) + 1;
+console.log(n);
+
+
+Program Love Calculator:-
+
+var yourName = prompt("Enter Your Name : ");
+var youLoved = prompt("EnterYour Loved Name ");
+var loveScroe = Math.floor((Math.random()*100)+1);
+
+alert("Your Love Scroe is : "+loveScroe);
