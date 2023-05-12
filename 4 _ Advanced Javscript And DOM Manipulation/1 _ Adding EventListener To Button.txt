@@ -1,1 +1,36 @@
+1.Add Script Before The Body
+Eg: <Script src="index.js" ></Script>
 
+
+
+2.addEventListener()  --> MDN Docs
+
+ i.parameter   --> what event
+ ii.parameter  --> what should do
+
+If Lot of Button First Button Choose :-
+                                     2 parmeter--(i)String-(ii)callback 
+document.querySelector("button").addEventListener("click",handleClick);  //handleClick() --> Not put Immediately Call This Function
+
+function handleClick(){
+console.log("Clicked !");
+}
+
+
+
+3.Anonymous Function // Have No Name
+
+document.querySelector("button").addEventListener("click",function(){
+    console.log("I Got Clicked !");
+});
+
+
+Program:-
+
+for(var i=0;i<numberOfDrumButtons;i++){
+
+    document.querySelectorAll(".drum")[i].addEventListener("click",function(){
+        console.log("clicked !");
+    });
+
+}
