@@ -1,0 +1,16 @@
+1.innerHTML:-
+    Also Include HTML Tags 
+    Eg: <h1>Good Bye</h1>
+
+> document.getElementById("title").innerHTML="Good Bye"; 
+> document.getElementById("title").innerHTML="<h1>Good Bye</h1>"; 
+
+
+2. textContent:-
+     Not Include HTML Tags
+     Eg: Good Bye
+
+> document.getElementById("title").textContent="Good Bye"; 
+> document.getElementById("title").textContent="Good Bye"; 
+
+

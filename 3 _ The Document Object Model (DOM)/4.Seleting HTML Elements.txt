@@ -1,0 +1,54 @@
+Both 3 are Works :-
+
+ 1. Tag Selector
+ 2. Class Selector
+ 3. Id Selector
+
+
+1.Tag Selector :-
+  ---> Fetch all of the tag name with Particular element:-
+
+> document.getElementsByTagName("li");   
+> document.getElementsByTagName("li")[2].style.color="purple";  
+> document.getElementsByTagName("li").length; 
+
+2.Class Selector :-
+
+> document.getElementsByClassName("btn");
+> document.getElementsByClassName("btn")[0].style.color="red";
+
+3.Id Selector :-
+   --->A Single Web Page a Every Id Should Be Unique
+
+> document.getElementById("title").innerHTML="GoodBye";
+
+   
+////////
+> document.querySelector("h1");      //Tag Selector
+> document.querySelector("#title");  //Id Selector
+> document.querySelector(".btn");    //Class Selector
+
+
+
+
+Combing Selector
+Hierarachi Selector
+
+// Singular 
+> document.querySelector("li a");  //Inside li a
+
+> document.querySelector("li.item"); //same line not mention space
+> document.querySelector("#list a");
+> document.querySelector("#list .item");
+    
+> document.querySelector("li a");
+> document.querySelector("li a").style.color="red";
+
+//Plural
+> document.querySelectorAll("#list .item");
+> document.querySelector("#list .item")[2].style.color="blue";  
+
+
+
+
+ 

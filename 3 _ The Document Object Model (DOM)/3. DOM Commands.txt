@@ -1,0 +1,53 @@
+> document;                                                          // full document
+> document.firstElementChild;                                       // full document html
+> document.firstElementChild.firstElementChild;                    // only head
+> document.firstElementChild.lastElementChild;                    // only body
+> document.firstElementChild.lastElementChild.firstElementChild; // <h1>Hello</h1>
+
+> var heading = document.firstElementChild.lastElementChild.firstElementChild;
+> heading.innerHTML = "Good Bye";
+> heading.style.color = "Red";
+
+
+> document.querySelector("input").click();
+
+
+All HTML Object Have Properties & Methods :-
+
+i)  Properties --> Describe Something about the object 
+ii) Methods    --> functionality of object
+
+
+
+
+
+
+Eg : Car (Objects):-
+
+Properties --> color, number of seats, number of doors
+Methods    --> break(), drive(), park()
+
+Get Property:-
+  car.color; //red
+
+Set Property :-
+  car.numberOfDoors = 0;
+
+Call Methods:-
+   car.drive();
+
+
+
+
+Eg : Button (Objects):-
+
+
+Properties --> innerHTML, style, firstChild
+Methods    --> click(), appendChild(), setAttribute()
+
+
+
+
+//Solution:-
+> document.firstElementChild.lastElementChild.lastElementChild.LastElementChild.innerHTML="Ragul";
+

@@ -1,0 +1,66 @@
+Dominating the DOM to add functionality to HTML elements
+
+
+
+1. All the elements in our html has be converted into objects
+2. And Relationship to be each other Mapped out in Tree Diagram
+
+
+
+<!DOCTYPE >
+<html >
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <button>Alert</button>
+</body>
+</html>
+
+
+
+
+chrome Extension --> HTML Tree Generator
+
+
+
+index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>javascript dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title" value="ok" >Hello</h1>
+    <input type="checkbox" >
+    <button class="btn btn-primary">Click Me</button>
+
+    <ul>
+        <li class="list"><a href="www.google.com">Google</a></li>
+        <li class="list">Second</li>
+        <li class="list item">Third</li>
+    </ul>
+    
+
+
+<script src="index.js"></script>
+</body>
+</html>
+
+
+style.css
+
+button:active {
+background-color: red;
+}
+
+.invisible {
+
+    visibility: hidden;
+}
+
+index.js
+
+console.log("Hello DOM");

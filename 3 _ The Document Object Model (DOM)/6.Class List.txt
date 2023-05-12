@@ -1,0 +1,5 @@
+> document.querySelector("button").classList;                        // return class list
+> document.querySelector("button").classList.add("invisible");       // add class
+> document.querySelector("button").classList.remove("invisible");     // remove  class
+> document.querySelector("button").classList.toggle("invisible");     //if already applay means not applay or not applay means applay
+

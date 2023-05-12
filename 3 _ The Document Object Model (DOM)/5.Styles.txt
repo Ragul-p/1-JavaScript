@@ -1,0 +1,7 @@
+> document.querySelector("h1").style.color="red";
+> document.querySelector("h1").style.fontSize="10rem";
+> document.querySelector("h1").style.padding="3%";
+> document.querySelector("h1").style.visibility="hidden"; 
+> document.querySelector("h1").style.backgroundColor="yellow"; 
+
+   
